@@ -490,37 +490,3 @@ function wlbPostData(jsonObj) {
     });
 }
 
-// window.onscroll = function (event) {
-//     var wScrollY = window.scrollY; // 当前滚动条位置    
-//     var wInnerH = window.innerHeight; // 设备窗口的高度（不会变）    
-//     var bScrollH = document.body.scrollHeight; // 滚动条总高度        
-//     if (wScrollY + wInnerH >= bScrollH) {
-//         console.log("到底了.");
-//         RenderMoreData(7);
-//     }
-//  if(wScrollY + wInnerH >= bScrollH){
-//     console.log("到了顶.");
-//     RenderMoreDataForward(7);
-//  }
-// };
-
-// var data = {
-//     resData: [{
-//         itemTime: '2017/10/7',
-//         itemList: [{
-//             name: '回学校',
-//             finish: false
-//         }, {
-//             name: 'php完成',
-//             finish: false
-//         }],
-//         itemWeek: ''
-//     }, {
-//         itemTime: '2017/10/11',
-//         itemList: [{
-//             name: '中移互联网简历截止',
-//             finish: true
-//         }],
-//         itemWeek: ''
-//     }]
-// };
